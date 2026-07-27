@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">Settings</title>
+  <defs>
+    <linearGradient id="surface" x1="18" y1="12" x2="112" y2="118" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#eff2f6"/>
+      <stop offset=".5" stop-color="#aeb5c0"/>
+      <stop offset="1" stop-color="#727b89"/>
+    </linearGradient>
+    <linearGradient id="gear" x1="38" y1="28" x2="91" y2="102" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f9fbff"/>
+      <stop offset=".5" stop-color="#b6beca"/>
+      <stop offset="1" stop-color="#626c7b"/>
+    </linearGradient>
+  </defs>
+  <rect x="5" y="5" width="118" height="118" rx="27" fill="url(#surface)"/>
+  <rect x="7" y="7" width="114" height="114" rx="25" fill="none" stroke="#fff" stroke-opacity=".65" stroke-width="3"/>
+  <path fill="url(#gear)" fill-rule="evenodd" d="m74.1 23 3.7 10.1a34.8 34.8 0 0 1 7.2 4.2l10.5-2.3 8.8 15.2-6.8 8.3c.4 2.7.4 5.4 0 8.1l6.8 8.3-8.8 15.2-10.5-2.3a34.8 34.8 0 0 1-7.2 4.2L74.1 105H56.5l-3.7-10.1a34.8 34.8 0 0 1-7.2-4.2l-10.5 2.3-8.8-15.2 6.8-8.3a31.3 31.3 0 0 1 0-8.1l-6.8-8.3L35.1 38l10.5 2.3a34.8 34.8 0 0 1 7.2-4.2L56.5 26h17.6ZM65.3 46.7a18.8 18.8 0 1 0 0 37.6 18.8 18.8 0 0 0 0-37.6Zm0 9.3a9.5 9.5 0 1 1 0 19 9.5 9.5 0 0 1 0-19Z"/>
+  <circle cx="65.3" cy="65.5" r="8" fill="#596372" opacity=".78"/>
+</svg>

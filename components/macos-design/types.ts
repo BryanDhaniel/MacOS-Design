@@ -1,13 +1,6 @@
 import type { ReactNode } from "react";
 
-export type ToolId =
-  | "conversation"
-  | "reasoning"
-  | "perspectives"
-  | "bias"
-  | "evidence"
-  | "reports"
-  | "settings";
+export type ToolId = "settings" | "finder" | "safari" | "photos" | "notes" | "mail" | "terminal" | "calculator";
 
 export type WindowLayout = { x: number; y: number; z: number };
 
@@ -25,17 +18,6 @@ export type WindowChromeProps = {
 };
 
 export type WindowFrameProps = WindowChromeProps & { children: ReactNode };
-
-export type GraphNode = {
-  id: string;
-  label: string;
-  type: string;
-  x: string;
-  y: string;
-  color: string;
-};
-
-export type Perspective = readonly [name: string, glyph: string, detail: string];
 
 export type UtilityPanel = {
   eyebrow: string;

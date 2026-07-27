@@ -11,7 +11,6 @@ type UtilityWindowProps = Omit<WindowChromeProps, "title" | "eyebrow"> & {
 
 export function UtilityWindow({ panel, onOpenItem, onAddItem, ...frameProps }: UtilityWindowProps) {
   return <WindowFrame title={panel.title} eyebrow={panel.eyebrow} {...frameProps}>
-    <div className="multi-utility-items">{panel.lines.map((line, index) => <button key={line} onClick={() => onOpenItem(line)}><span>0{index + 1}</span><p>{line}</p><Icon name="chevron" size={14} /></button>)}</div>
-    <button className="multi-utility-add" onClick={onAddItem}><Icon name="plus" size={14} /> Add to this workspace</button>
+    <div className="w-full h-full bg-white" style={{ minHeight: "400px" }} />
   </WindowFrame>;
 }
