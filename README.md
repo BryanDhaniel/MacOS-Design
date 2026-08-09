@@ -3,6 +3,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 ## Getting Started
 
 ## MACOS DESIGN
+This website is build
 
 First, run the development server:
 
